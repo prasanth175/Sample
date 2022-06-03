@@ -1,0 +1,220 @@
+body{
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 5% 0 0 7%;
+}
+
+.container{
+    position: relative;
+    margin: 0% 7% 0 7%;
+    height: 80vh;
+    background-color: rgb(255, 253, 253);
+}
+
+.cross{
+    position: absolute;
+    top: 15%;
+    left: -10%;
+    height: 30%;
+    width: 100vw;
+    /* border: 3px solid rgb(235, 235, 235); */
+    margin: 11% auto 5% auto;
+    transform: rotate(158deg);
+    background: #f7f7f7;
+    background-size: contain;
+}
+
+.uppercross{
+    position: relative;
+    left: 5.6%;
+    height: 3%;
+    width: 33%;
+
+    background-color: #a8bdfc;
+}
+
+.downcross{
+    position: relative;
+    bottom: -90%;
+    left: 57%;
+    height: 3%;
+    width: 36%;
+    background-color: #a8bdfc;
+    transform: rotate(180deg);
+}
+
+.box{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25vw;
+    height: 60vh;
+    border-radius: 20px;
+    background-color:white;
+    box-shadow:rgb(98, 97, 97) solid 3px;
+    z-index: 20;
+}
+
+img{
+    position: absolute;
+    left: 4%;
+    top: 9%;
+}
+
+.line-1{
+    height: 3vh;
+    width: 0.6vw;
+    background-color: blue;
+    position: absolute;
+    border-radius: 30px;
+    left: 49%;
+    top: 5%;
+    transform: rotate(-35deg);
+}
+
+.line-2{
+    height: 6vh;
+    width: 0.6vw;
+    background-color: blue;
+    position: absolute;
+    border-radius: 30px;
+    left: 47%;
+    top: 5%;
+    transform: rotate(-35deg);
+}
+
+.line-3{
+    height: 4vh;
+    width: 0.6vw;
+    background-color: blue;
+    position: absolute;
+    border-radius: 30px;
+    left: 45%;
+    top: 9%;
+    transform: rotate(-35deg);
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20% 12% 0 12%;
+    padding: 0 20%;
+    font-size: .9rem;
+}
+
+.info p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 3% 5% 0 5%;
+    padding: 0;
+    font-size: .7rem;
+}
+
+form{
+    margin: 3% 5% 0 5%;
+    padding: 0 8%;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+input{
+    width: 90%;
+    margin-bottom: 8%;
+    margin-top: 3%;
+    border: rgb(98, 97, 97) 1px solid;
+}
+
+select{
+    width: 90%;
+    margin-bottom: 8%;
+    margin-top: 3%;
+    border: rgb(98, 97, 97) 1px solid;
+}
+
+.names{
+    display: block;
+}
+
+.company-size{
+    margin: 3% 4% 0 4%;
+    padding: 0 9%;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+span{
+    padding: .5% 3%;
+    background: rgb(224, 224, 224);
+    border-radius: 3px;
+}
+
+span:hover{
+    background: rgb(41, 130, 245);
+    color: white;
+}
+
+span:focus{
+    background-color: rgb(41, 130, 245);
+    color: white;
+}
+
+span a{
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+}
+
+a:hover{
+    color:white;
+    background: rgb(41, 130, 245);
+}
+
+a:focus{
+    color:white;
+    background: rgb(41, 130, 245);
+}
+
+.values{
+    margin: 3% 5% 0 5%;
+    padding: 0 9%;
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.Button{
+    position: absolute;
+    bottom: 7%;
+    left: 17%;
+    background: #3766E8;
+    color: #FFFFFF;
+    padding: 2%;
+    width: 15vw;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.Button:hover{
+    background: white;
+    color: rgb(41, 130, 245);
+    border:rgb(41, 130, 245) 1px solid;
+    border-radius: 5px;
+}
+
+
+.footer{
+    position: absolute;
+    bottom: 3%;
+    left: 44%;
+    color: rgb(63, 62, 62);
+    font-size: .7rem;
+    font-weight: 400;
+    z-index: 10;
+    width: 10vw;
+}
